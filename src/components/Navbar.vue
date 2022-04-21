@@ -1,6 +1,8 @@
 <template>
   <header>
+    <router-link to="/">
     <h1>The Dojo Blog</h1>
+    </router-link>
     <nav>
       <router-link :to="{ name: 'Home' }">Home</router-link>
       <router-link :to="{ name: 'Create' }">Create Post</router-link>
